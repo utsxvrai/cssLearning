@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 body {
     font-family: sans-serif;
     margin-top: 0;
@@ -13,8 +14,12 @@ body {
 /* Header */
 .main-header {
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     background: #2ddf5c;
     padding: 8px 16px;
+    z-index: 8;
 }
 
 .main-header>div {
