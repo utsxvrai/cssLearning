@@ -45,9 +45,14 @@ body {
 }
 
 .main-nav__items {
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    /* kkep space between i and values */
+    text-decoration: none;
 }
 
 .main-nav__item {
