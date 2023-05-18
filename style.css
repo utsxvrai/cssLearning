@@ -1,6 +1,7 @@
 #product-overview {
     background: url("/img/pexels-pham-ngoc-anh-14237620.jpg");
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     height: 528px;
