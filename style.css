@@ -1,39 +1,33 @@
-
-
-#product-overview{
-    background: #201E1F;
+#product-overview {
+    background: url("/img/pexels-pham-ngoc-anh-14237620.jpg");
     width: 100%;
-    height: 428px;
+    height: 528px;
     padding: 10px;
 }
-.section-title{
-    background: #201E1F;
-    color: #FF4000;
+
+.section-title {
+    color: #2ddf5c;
     text-align: center;
 
 }
-#product-overview h1{
+
+#product-overview h1 {
     color: white;
-    font-family: sans-serif; 
+    font-family: sans-serif;
 
 }
-.plans{
-    background: #201E1F;
-}
 
-.plan__list{
-    width: 100%;
+.plan__list {
+    width: 80%;
     margin: auto;
-    margin-top: -19px;
     text-align: center;
-    background: #201E1F;
-    
+
 }
 
 
 
-.plan{
-    background: #ffb196;
+.plan {
+    background: #d5ffdc;
     text-align: center;
     padding: 16px;
     margin: 8px;
@@ -42,88 +36,80 @@
     vertical-align: middle;
 }
 
-.plan--highlighted{
-    background: #ff4000;
+.plan--highlighted {
+    background: #19b84c;
     color: white;
-    /* box-shadow: 2px 2px 2px 2px rgba(191, 191, 238, 0.5); */
-    
+    box-shadow: 2px 2px 2px 2px rgba(191, 191, 238, 0.5);
+
 }
 
-.plan__annotation{
+.plan__annotation {
     background: white;
-    color: #201E1F;
+    color: #19b84c;
     padding: 8px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 5px ;
+    border-radius: 5px;
 }
 
 
-.plan--highlighted .plan-price{
-    color: #201E1F;
+.plan--highlighted .plan-price {
+    color: #0e4f1f;
 }
-.plan--highlighted .plan-title{
+
+.plan--highlighted .plan-title {
     color: white;
 }
 
-.planfeature{
+.planfeature {
     list-style: none;
     margin: 0;
     padding: 0;
 
 }
 
-.planfeature li{
+.planfeature li {
     margin: 8px 0;
 }
 
-.section_feat{
-    color: #FF4000;
-    display: flex;
-    justify-content: center;
-    padding: 32px;
-    margin-bottom: px;
+
+#key_features {
+    background: #ff1b68;
 }
 
-
-#key_features{
-    background: #201E1F;
-}
-#key_features .section-title{
-    color: #201E1F;
+#key_features .section-title {
+    color: white;
     margin: 32px;
     padding: 16px;
 }
 
-.key-feature__list{
-    list-style: none;   
+.key-feature__list {
+    list-style: none;
     margin: 0;
     padding: 0;
     text-align: center;
 
 }
 
-.key-feature{
+.key-feature {
     display: inline-block;
     width: 30%;
     vertical-align: top;
 
 }
-.key-feature__description{
+
+.key-feature__description {
     text-align: center;
     font-weight: bold;
     color: white;
     font-size: 20px;
     padding-top: 32px;
 }
-.key-feature__image{
-    background: #ffb196;
+
+.key-feature__image {
+    background: #ffcede;
     height: 128px;
     width: 128px;
-    border: 2px solid #201E1F;
+    border: 2px solid #424242;
     border-radius: 50%;
     margin: 0 auto;
 }
-
-
-
-
