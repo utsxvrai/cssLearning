@@ -17,7 +17,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: #2ddf5c;
+    background: #201E1F;
     padding: 8px 16px;
     z-index: 8;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .main-header__brand {
-    color: #0e4f1f;
+    color: #FF4000;
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
@@ -62,7 +62,7 @@ body {
 }
 
 .main-nav__item a {
-    color: #0e4f1f;
+    color: #ff4000;
     font-weight: bold;
     text-decoration: none;
     padding: 3px 0;
@@ -77,7 +77,7 @@ body {
 
 .main-nav__item--cta a {
     color: white;
-    background: #ff1b68;
+    background: #ff4000;
     padding: 8px 16px;
     border-radius: 8px;
 }
@@ -91,9 +91,9 @@ body {
 
 /* Footer styling */
 .main-footer {
-    background: black;
+    background: #201E1F;
     padding: 32px;
-    margin-top: 48px;
+    color: #201E1F;
 }
 
 .main-footer__links {
@@ -109,7 +109,7 @@ body {
 }
 
 .main-footer__link a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -122,10 +122,10 @@ body {
 /* button styling */
 
 .button {
-    background: #0e4f1f;
+    background: #201E1F;
     color: white;
     font: inherit;
-    border: 1.5px solid #0e4f1f;
+    border: 1.5px solid #ffffff;
     padding: 8px;
     border-radius: 8px;
     font-weight: bold;
@@ -134,7 +134,7 @@ body {
 
 .button:hover {
     background-color: white;
-    color: #0e4f1f;
+    color: #ff4000;
 }
 
 .button:focus {

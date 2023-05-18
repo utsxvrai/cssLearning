@@ -1,13 +1,14 @@
 
 
 #product-overview{
-    background: url("/img/pexels-pham-ngoc-anh-14237620.jpg");
+    background: #201E1F;
     width: 100%;
-    height: 528px;
+    height: 428px;
     padding: 10px;
 }
 .section-title{
-    color: #2ddf5c;
+    background: #201E1F;
+    color: #FF4000;
     text-align: center;
 
 }
@@ -16,18 +17,23 @@
     font-family: sans-serif; 
 
 }
+.plans{
+    background: #201E1F;
+}
 
 .plan__list{
-    width: 80%;
+    width: 100%;
     margin: auto;
+    margin-top: -19px;
     text-align: center;
+    background: #201E1F;
     
 }
 
 
 
 .plan{
-    background: #d5ffdc;
+    background: #ffb196;
     text-align: center;
     padding: 16px;
     margin: 8px;
@@ -37,15 +43,15 @@
 }
 
 .plan--highlighted{
-    background: #19b84c;
+    background: #ff4000;
     color: white;
-    box-shadow: 2px 2px 2px 2px rgba(191, 191, 238, 0.5);
+    /* box-shadow: 2px 2px 2px 2px rgba(191, 191, 238, 0.5); */
     
 }
 
 .plan__annotation{
     background: white;
-    color: #19b84c;
+    color: #201E1F;
     padding: 8px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
     border-radius: 5px ;
@@ -53,7 +59,7 @@
 
 
 .plan--highlighted .plan-price{
-    color: #0e4f1f;
+    color: #201E1F;
 }
 .plan--highlighted .plan-title{
     color: white;
@@ -70,12 +76,20 @@
     margin: 8px 0;
 }
 
+.section_feat{
+    color: #FF4000;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    margin-bottom: px;
+}
+
 
 #key_features{
-    background: #ff1b68;
+    background: #201E1F;
 }
 #key_features .section-title{
-    color: white;
+    color: #201E1F;
     margin: 32px;
     padding: 16px;
 }
@@ -102,10 +116,10 @@
     padding-top: 32px;
 }
 .key-feature__image{
-    background: #ffcede;
+    background: #ffb196;
     height: 128px;
     width: 128px;
-    border: 2px solid #424242;
+    border: 2px solid #201E1F;
     border-radius: 50%;
     margin: 0 auto;
 }
